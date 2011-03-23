@@ -24,6 +24,6 @@ Demo::Application.configure do
   config.action_dispatch.best_standards_support = :builtin
   
   API_BASE_URL='http://api.wordnik.com/v4/api'
-  API_KEY='bf0c4237345ca83de340f09d7b90c8935b1817e34c5d61955'
+  API_KEY='Your Auth Key'
 end
 
