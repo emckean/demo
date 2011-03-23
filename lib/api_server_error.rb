@@ -1,0 +1,2 @@
+class ApiServerError < StandardError
+end

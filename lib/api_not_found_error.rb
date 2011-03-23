@@ -1,0 +1,2 @@
+class ApiNotFoundError < StandardError
+end

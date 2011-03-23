@@ -1,0 +1,18 @@
+<div style="padding:25px 0 40px 0;">
+<% if @definitions && !@definitions.empty? -%>
+	<table>
+		<tr>
+			<th> Word </th>
+			<th> Text </th>
+			<th> Source </th>
+		</tr>
+		<% @definitions.map do |d|%>
+		<tr>
+			<td><%= d.word %></td>
+			<td><%= d.text %></td>
+			<td><%= d.source %></td>
+		</tr>
+		<% end %>
+	</table>
+<% end -%>	
+</div>

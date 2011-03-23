@@ -1,0 +1,15 @@
+<div style="padding:25px 0 40px 0;">
+<% if @show_words && !@show_words.empty? -%>
+	<table>
+		<tr>
+			<th> word </th>
+		</tr>
+		
+	<% @show_words.map do |word| %>
+		<tr>
+			<td><%= word.sval %></td>
+		</tr>		
+	<% end %>
+	</table>
+<% end -%>
+</div>
